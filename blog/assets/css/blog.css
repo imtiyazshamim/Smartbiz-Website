@@ -1,0 +1,656 @@
+
+ 
+  #hero-blog {
+    width: 100%;
+    height:285px;
+    padding: 0 0 0 0;
+    background: #02a295 url('../images/blog-bg.jpg') no-repeat left top;
+  }
+  
+  #hero-blog h2 {
+    margin: 28px 0px 15px 22px;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #ffffff;
+    font-family: 'amazon-heavy';
+  }
+ 
+  
+  @media (max-width: 768px) {
+    
+    #hero-blog {
+      -moz-text-align-last: center;
+      text-align-last: center;
+    }
+    #hero-blog h2 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+    .input-group {
+        width:100%;
+    }
+   
+  }
+
+  .slider .content + .content {
+    margin-top: 100px;
+  }
+  .slider .content h3 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #213b52;
+  }
+.slider .content h3{font-weight: 700; font-size: 26px; color:#303c4a }
+  .slider .content ul {
+    list-style: none;
+   
+  }
+.blog-inner ul li::before {
+  content: "\2022";
+  color: #f26222;
+  font-family: 'amazon-heavy';
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1rem;
+}
+.blog-inner ul li{
+  list-style: none;
+}
+  .slider .content ul li {
+    padding-bottom: 10px;
+  }
+  .slider .content ul i {
+    font-size: 20px;
+    padding-right: 4px;
+    color: #fdc134;
+  }
+  .slider .content p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .far-bg {  background: #fff;}
+  div#accordionExampleblog {  background: #fff;}
+  .accordion-item {background:none }
+  button.accordion-button { background: #f3f5f7;}
+  .accordion-button::after {
+        background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+        transform: scale(1) !important;
+      }
+      .accordion-button:not(.collapsed)::after {
+        background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+      }
+  
+  .accordion-button:not(.collapsed)
+   { color: #000000; background-color:none!important; box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);}
+  .accordion-button:not(.collapsed) { box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);}
+  .accordion-body { border-radius: 10px;}
+  .accordion-item { border: 0px solid rgba(0,0,0,.125);} 
+  #accordionExampleblog .accordion-button:not(.collapsed),
+   #faq .accordion-button:not(.collapsed), button.accordion-button {background-color:rgba(0,0,0,0)!important;} 
+
+  
+ 
+  h2.together-text-blog {
+    text-align: center; color:#fff;
+    
+    font-family: 'amazon-bold';
+    }
+   h2.together-text-blog-1 {
+    font-size: 25px;
+   font-family: 'amazon-medium';}
+ 
+  section.together-bg-blog { background: #33b7b0;}
+
+  .together-card-blog{
+    position: relative;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      word-wrap: break-word;
+      background-color: #fff;
+      background-clip: border-box;
+
+      border-radius: 0.25rem;
+  }
+  .together-card-blogg{
+    position: relative;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      word-wrap: break-word;
+      background-color: #fff;
+      background-clip: border-box;
+  border: 1px solid #848585;;
+      border-radius: 5px;
+      border-top:none;
+      
+  }
+  .together-card-body-blog {
+    flex: 1 1 auto;
+    padding: 15px;
+  }
+ 
+  .date{ margin-bottom: 0.5rem; color: #24303f; font-size: 16px;}
+  .together-main-card { padding: 10px;}
+  .together-body-text:last-child { margin-bottom: 0;}
+  .together-body-text { font-weight: bold;}
+  .col-together-card { padding-top: 40px; padding-bottom:20px}
+  .together-main-card-blog { padding: 10px;}
+  .together-body-text-blog:last-child { margin-bottom: 0;}
+  .together-body-text-blog { font-weight: bold;}
+  
+  .col-together-card-blog {padding-top: 20px; padding-bottom:20px}
+
+  
+   
+   
+ 
+
+
+  /*--------------------------------------------------------------
+  # smartCommerce
+  --------------------------------------------------------------*/
+  .smartCommerce-blog {
+      
+      background: #24303f url('../images/discover/water-marker-1.png') no-repeat left center;
+      
+  }
+  .smartCommerce-blog p {
+color:#fff;
+font-size:20px;
+    
+}
+  .presenting-smartecommerce-blog {  color: #ffff; height: 100%;}
+  
+  .explore-smartecommerce-blog {
+      background: #33b7b0;
+      padding: 40px;
+      height: 100%;
+      border-radius: 10px;
+  }
+  
+  .smartcommerce-heading-blog {
+      font-size: 55px;
+      font-weight: bold;
+  }
+  .smartcommerce-heading-blog {
+      font-size: 55px;
+      font-weight: bold;
+      padding-bottom:10px
+  } .smartcommerce-heading-blog  span{
+    font-size: 55px;
+    font-weight: bold;
+    color:#F26222;
+}
+
+.smartcommerce-heading-blog  p{
+    margin-top: 0px;
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+.smartcommerce-heading-blog span {
+    font-size: 55px;
+    font-weight: bold;
+    padding-bottom:10px;
+    color:#F26222;
+}
+  .btn-smart {
+      background-color: #F26222;
+      border-color: #F26222;
+      color: #ffffff;
+      padding: 10px 35px;
+      border-radius: 25px;
+      font-weight: bold;
+      /* margin: 20px; */
+      margin-top: 14px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .smartCommerce-blog {
+      background: #24303F;
+      padding: 0px 10px;
+  }
+    .presenting-smartecommerce-blog {
+      color: #ffff;
+      padding: 40px 20px;
+      height: 100%;
+  }
+  
+  .explore-smartecommerce-blog {
+      background: #33b7b0;
+      padding: 20px;
+      height: 100%;
+      border-radius: 10px;
+  }
+    .smartcommerce-heading-blog {
+      font-size: 30px;
+      font-weight: bold;
+      padding-bottom:10px
+  }
+  .smartcommerce-heading-blog span {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom:10px
+}
+  }
+  
+  .logo img{width:142px} .menu-right ul li{display:inline-block; list-style:none} .menu-right ul li:first-child a{color:#23303f;  margin-right:30px} .menu-right ul{padding-bottom:0px;  margin-bottom:0px; margin-top:10px}  .menu-right ul li:last-child a, .menu-right-mob a{color:#fff; background:#f26222;  border-radius:30px;  padding:10px 15px} .menu-right-mob a{padding:5px 15px; float:left; margin-top:1px} #header ul li a{font-family:'amazon-light'; font-size:16px; font-weight:800} .amazon-cta{transition: all ease-in-out 0.3s; border: 2px solid #f26222; font-family: 'amazon-medium'; background:#f26222;  color:#fff;  font-size:20px; line-height:1; padding:14px 30px; 
+      border-radius: 30px;} 
+      #hero h2, .howdoes-sec h2{position:relative;  padding-bottom:30px}  #hero-blog h2, .howdoes-sec h2{position:relative;  padding-bottom:30px} 
+      #hero h2::after, .howdoes-sec h2::after{width:270px; height:33px;  content:''; position:absolute;   bottom:0px;  background:url(../images/line-h.png) left center no-repeat} .howdoes-sec h2::after{left:50%; transform: translateX(-50%); } #header {box-shadow: 1px 1px 1px #dbdbdb   }
+   #hero h2::after, .howdoes-sec h2::after{width:270px; height:33px;  content:''; position:absolute;   bottom:0px;  background:url() left center no-repeat} .howdoes-sec h2::after{left:50%; transform: translateX(-50%); } #header {box-shadow: 1px 1px 1px #dbdbdb   }
+   
+  #about p, #about h5{color:#24303f} #about h5{font-size:20px; font-family: 'amazon-medium'; font-weight:500;  } .intro-c{ position: relative; } .intro-c img{ z-index:1} .intro-c::before{ position: absolute; content:''; width:310px;  height:310px; background:#f26222;  border-radius:100%;  z-index:-1; left:50%;  transform: translate(-50%, -50%); top:50%; }  .small-cta{transition: all ease-in-out 0.3s; border: 2px solid #f26222; font-family: 'amazon-light'; font-size:16px; padding:10px 30px;} .small-cta.cta-black{border: 2px solid #24303f; background:none;  color:#24303f} .small-cta:hover, .amazon-cta:hover, .small-cta.cta-black{background:none;  font-weight:800} .small-cta, .amazon-cta, .small-cta.cta-black{font-weight:800} .small-cta.cta-black:hover{ background:#24303f;  color:#fff}  .intro-mobile.content p{font-family: 'amazon-bold'; line-height:1.2; color:#fff} .intro-mobile.content p span { clear: both; float: left; width: 100%; padding-bottom: 20px;} .intro-offer h3{font-family: 'amazon-bold';}  h4.why-text{font-family: 'amazon-light'; font-weight:800} .why-icon{text-align:center} .why-icon img{ padding-bottom:15px} .intro-c{text-align:center} 
+  .inoffer{background: rgb();
+  background: linear-gradient(0deg, rgba(243,245,247,1) 50%, rgba(255,255,255,1) 50%);} .amazon-accordian .accordion-body{border:1px solid #23303f;  border-radius:10px;  } .amazon-accordian 
+  .accordion-button:not(.collapsed){box-shadow:none} .amazon-accordian .accordion-button{font-family: 'amazon-medium';} .amazon-accordian .accordion-body ul li{ padding-top:4px; padding-bottom:20px; padding-left:40px} .amazon-accordian .accordion-body ul li{position:relative} .amazon-accordian .accordion-body ul li::before{content:'\f26e'; width:28px; height:28px; background:#f26222; border-radius:50%; position:absolute;  left:0px; top:0px; font-family: bootstrap-icons !important; color:#fff; text-align:center; font-size:20px } .howdoes-sec{background:#24303f} .faq-accordian .accordion-header span{color:#00a59c; margin-right:20px;  } .faq-accordian .accordion-header{font-family: 'amazon-bold'; border-bottom:1px solid #d1d3d6;  padding-bottom: 25px; padding-top: 25px; } 
+  #slider .accordion-button::after{ transform: scale(.7) !important;} 
+  .accordion-button:not(.collapsed){box-shadow:none!important} .smartCommerce-blog p{color:#fff} 
+  .together-card-body h3{font-family: 'amazon-bold'; } .together-card-body-blog h3{font-family: 'amazon-bold'; } .accelerate{background:url(../images/amazon-app-bg.png) no-repeat center right} .accelerate-app{position:relative} 
+  .explore-smartecommerce-blog p{color:#24303f} .smartCommerce-blog .presenting-smartecommerce-blog .btn:hover{color:#f26222} .footer-content{border-bottom:1px solid #dddddd} .footer-legal a{color:#848585; display:inline;  padding:20px} .copyright{color:#848585; font-size:14px} .footer-legal a:hover, 
+  .together-card a:hover,
+  .together-card-blog a:hover, .faq-accordian .accordion-header .accordion-button:hover, .amazon-accordian .accordion-button:hover, .menu-right ul li:last-child a:hover, .menu-right-mob a:hover{color:#f26222} .footer-content img{width:200px} 
+  .together-card a{color:#24303f} .together-card-blog a{color:#24303f} .menu-right ul li a:hover{color:#01a59c} .menu-right ul li:last-child a:hover, .menu-right-mob a:hover{background:none} .menu-right ul li:last-child a, .menu-right-mob a{border:1px solid #f26222} .howdoes-sec h2, .white-text p{color:#fff;} .step-icon{opacity:0;width: 60px;height: 60px;  padding:10px; border-radius:50%;  background:#fff;  margin:0px auto; margin-bottom:20px} .step-tab h6{font-size:20px; } .step-tab p{font-weight:300} #blog-inn table {
+   border-collapse: collapse; margin-bottom:30px } #blog-inn td { padding: 20px;    
+    border: 1px solid #23303f;   text-align: left;} .blog-inner h2, .blog-inner h1, 
+    .blog-inner h3, .blog-inner h4, .blog-inner h5, .blog-inner img{padding-bottom:15px; padding-top:5px}
+     .blog-inner h2, .blog-inner h3, .blog-inner h4, .blog-inner h5{ font-family: 'amazon-heavy';} 
+     .blog-inner table{margin-top:10px} .blog-inner table th{background:#23303f; color:#fff!important;  
+      padding-top:10px; padding-bottom:10px} .blog-inner table stong{font-family: 'amazon-heavy';} .blog-inner 
+      .amazon-cta {margin-top:10px;  float: left;} .blog-inner img{width:100%} p.note{background:#c9ebe9;
+          padding:30px} .blog-inner table th{text-align:left;  padding-left:20px} #blog-inn td,  #blog-inn th{width:auto}
+  
+  @media (max-width: 767px)  {
+      .pt120{padding-top:80px} .pt100{padding-top:60px} .pt80{padding-top:50px} .pt60{padding-top:50px} .pt40{padding-top:40px} .pb120{padding-bottom:80px} .pb100{padding-bottom:60px} .pb80{padding-bottom:50px} .pb60{padding-bottom:50px} .pb40{padding-bottom:40px} 
+      
+      .menu-right{display:none} .app-box{padding-top:40px} .intro-mobile.content p{font-size:30px} .intro-offer h3{font-size:20px} .amazon-accordian .accordion-button{padding-left:20px} .amazon-accordian .accordion-body{ padding:50px 30px} .faq-accordian .accordion-header .accordion-button{font-size:19px;  padding-left:0px;  padding-bottom:0px}
+     .together-card-body h3{ font-size:20px;min-height: 120px;}  .together-card-body-blog h3{ font-size:20px} #faq .section-header h2, .accelerate-heading, 
+     h2.together-text,  h2.together-text-blog, .howdoes-sec h2  {font-size:34px} .intro-circle, .fwola, .accelerate-app, section.accelerate{margin-bottom:60px} #hero h2, #hero-blog h2, #hero h3{text-align:center} #hero h2::after, .howdoes-sec h2::after{left:50%; transform:translateX(-50%)} 
+     .together-card{width:100%!important;} .together-button-ly { padding:5px; } .together-card-blog{width:100%!important;} .together-button-ly-blog { padding:5px; } .accelerate-heading { padding: 0px 0px;} section.accelerate { padding:10px;} section.accelerate{margin-top:60px } section.together-bg{ padding: 60px 20px;} .intro-offer, 
+     .explore-smartecommerce-blog { padding: 60px 40px;} .small-cta:hover, .amazon-cta:hover, .small-cta.cta-black, .small-cta, 
+     .inoffer{ text-align:center} .tbanner-copy {padding-bottom: 80px!important;}  .no-flex{display: inline-block!important; padding:0px}  .img-intro { max-width: 100%;} .together-button, .together-button a{width:100%} #sync2{display:none} .tesp-cloum{padding:20px} #sync1 .owl-nav{display:none}.hwpt3{padding-top: 1rem!important;} .hide-mob{display:none} #hero h2::after, .howdoes-sec h2::after{left:50%; transform:translateX(-50%)} 
+     .together-card{width:100%!important;} .together-button-ly { padding:5px; } .accelerate-heading { padding: 0px 0px;} section.accelerate { padding:10px;} section.accelerate{margin-top:60px } section.together-bg{ padding: 60px 20px;} .intro-offer, 
+     .explore-smartecommerce-blog { padding: 60px 40px;} .small-cta:hover, .amazon-cta:hover, .small-cta.cta-black, .small-cta,
+      .inoffer{ text-align:center} .tbanner-copy {padding-bottom: 80px!important;}  .no-flex{display: inline-block!important; padding:0px}  .img-intro { max-width: 100%;} .together-button, .together-button a{width:100%} #sync2{display:none} .tesp-cloum{padding:20px} #sync1 .owl-nav{display:none}.hwpt3{padding-top: 1rem!important;} .hide-mob{display:none}
+     
+      
+      
+  }
+  
+   @media (max-width:900px)  {
+     
+    #hero-blog h2::after, .howdoes-sec h2::after{left:50%; transform:translateX(-50%)} .fwola::before{display:none}
+   
+   }
+   @media (max-width: 800px)  {
+      .intro-c{ margin-bottom:40px} 
+ 
+      
+  }
+
+
+ @media (min-width: 768px) and (max-width: 900px){
+
+ .together-card-body h3{ font-size:20px;min-height: 220px;} 
+
+ }
+
+ @media (min-width: 902px) and (max-width: 1100px){
+
+ .together-card-body h3{ font-size:20px;min-height: 160px;} 
+
+ }
+
+
+  @media (min-width: 768px){
+      .pt120{padding-top:100px} .pt100{padding-top:80px} .pt80{padding-top:60px} .pt60{padding-top:50px} .pt40{padding-top:40px} .pb120{padding-bottom:100px} .pb100{padding-bottom:80px} .pb80{padding-bottom:60px} .pb60{padding-bottom:50px} .pb40{padding-bottom:40px} 
+      .app-box{padding-top:60px} .app-box a{ margin-right:40px} .intro-offer {margin-top:70px; margin-bottom:70px} .intro-c{margin-top:-150px; /*margin-bottom:-160px; bottom: -30px; */ } .intro-mobile.content p{font-size:40px} .intro-offer h3{font-size:20px} .amazon-accordian .accordion-button{padding-left:40px} .amazon-accordian .accordion-body { padding:40px} .faq-accordian .accordion-body{ padding:40px 40px 0px 40px} .faq-accordian .accordion-header .accordion-button{font-size:22px; padding-left:0px;  padding-bottom:0px} 
+   
+    .together-card-body-blog h3{ font-size:20px}
+     #faq .section-header h2, .accelerate-heading, h2.together-text, .howdoes-sec h2  {font-size:44px} 
+      .together-button-ly {padding:20px;} section.together-bg { padding: 80px 0px;}  .together-button-ly-blog {padding:20px;} section.together-bg-blog { padding: 80px 0px;} 
+      .intro-offer { padding: 50px 60px;}  .howdoes-sec h2::after{left:50%;}  .menu-right-mob{display:none} .img-intro { max-width: 60%;} .step-mobile{display:none}
+      
+     
+      
+  }
+  
+  
+  @media (min-width: 1000px){
+      #hero h2::after{left:0px;}
+    #hero-blog h2::after{left:0px;}
+    
+  } 
+      @media (min-width: 1024px){
+      .pt120{padding-top:120px} .pt100{padding-top:100px} .pt80{padding-top:80px} .pt60{padding-top:60px} 
+    .pt40{padding-top:40px} .pb120{padding-bottom:120px} .pb100{padding-bottom:100px} .pb80{padding-bottom:80px} 
+    .pb60{padding-bottom:60px} .pb40{padding-bottom:40px}
+      
+      .app-box{padding-top:50px} .app-box a:first-child{position:relative; } 
+      
+    
+    .app-box a:first-child::after{content:''; width:2px; height:46px;  background:#fff; position: absolute;
+      right: -20px; transform: rotateZ(30deg);  } #about h5{padding-right:30%} .intro-mobile.content p{font-size:40px} 
+      .intro-c img{width:100%; max-width: 100%;} .why-icon{ padding-left:20px;  padding-right:20px} .amazon-accordian 
+      .accordion-button{padding-left:40px} .amazon-accordian .accordion-body{ padding:40px 40px 50px 40px} 
+      
+      #faq .section-header h2, .accelerate-heading, 
+      h2.together-text, h2.together-text-blog, .howdoes-sec h2  {font-size:54px} .faq-accordian .accordion-header 
+      .accordion-button{font-size:24px; padding-left:0px;  padding-bottom:0px} 
+      .together-card-body h3{ font-size:22px}  .together-card-body-blog h3{ font-size:16px}
+      .accelerate a.small-cta{ margin-right:30px} .accelerate-app .app-box{position:absolute;  right:-80px;  bottom:40px}  
+      
+      
+      
+  }
+ 
+  
+  .input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 45%;
+   
+  }
+  #input{
+    border-radius: 30px;
+    margin-right:8px;
+  }
+  #orange span{
+  color:#f26222;
+  }
+  #blogli .li{
+  text-decoration: none;
+  color:#f26222;
+  }
+  .blogi {
+    background-color: #c9ebe9;
+    /* min-height: 200px; */
+    padding: 20px;
+  }
+  #maro{
+    margin-top: 28px;
+  }
+  #headd{
+    font-size:40px;
+    
+  }
+  #note{
+    margin: 0px; margin-top:9px; margin-left: 30px; padding-left: 6px;
+  }
+  #t a{
+color:#000000;
+  }
+  #tero{
+    width:87%;
+  }
+  
+  @media (min-width: 768px){
+    #rightblog {
+      width:536px;
+    }
+  }
+  @media (max-width: 991.98px) {
+     #rightblog{
+      width:536px;
+    }
+  }
+ #together-card-body-blogg a{
+color:#00a59c
+  }
+  #together1 a{
+    color:#000;
+  }
+  .t a{
+    color: #303c4a;
+    }
+    .t a:hover{
+      color:#f26222;
+    }ul.orange-b ::before {
+  content: "\2022";
+  color: #f26222;
+  font-weight: bold;
+  font-family: 'amazon-heavy';
+  display: inline-block;
+  width: 20px;
+  margin-left: 20px;
+}
+
+.blog-inner h2{ 
+    font-size: 30px;
+} 
+.blog-inner h3{ 
+    font-size: 26px;
+} 
+.blog-inner h4{ 
+    font-size: 20px;
+} 
+.blog-inner h5{ 
+    font-size: 16px;
+} 
+.blog-inner h6{
+ font-size: 14px;
+}
+.blog-inner ul,  .blog-inner ol{padding: 0px 0px 15px 15px; margin-bottom:0px}
+.blog-inner ul li, .blog-inner ol li{ 
+    padding-bottom:15px;
+}
+.blog-inner li:last-child{
+    padding-bottom:0px;
+}
+.blog-inner h2, .blog-inner h3, .blog-inner h4, .blog-inner h5, .blog-inner h6{ 
+    margin-bottom:0px;  
+    padding-bottom: 15px
+}
+
+.blog-img{
+  width: 40%;
+  padding: 10px 0px;
+}
+@media (max-width: 768px) {
+  img.card-img-top.img-width {
+    width: 70%;
+    margin: 0px 15%;
+}
+  
+}
+#mobile-40 {
+    margin-bottom: 10px;
+}
+
+
+.amazon-accordian .accordion-button p:hover{color: #f26222;} .blog-content-sec .amazon-accordian .accordion-button { padding-left: 0px; padding-top: 5px; padding-right: 0px; padding-bottom:0px; font-family: 'amazon-medium';}  .blog-content-sec .accordion-collapse {margin-top: 15px; margin-bottom: 10px;} .blog-content-sec a{color: #f26222;}   .related-blog h3 a:hover{color:#f26222} .blog-inner h2, .blog-inner h1, .blog-inner h3, .blog-inner h4, .blog-inner h5, .blog-inner img{margin-bottom:0px; padding-bottom: 20px} .blog-right h2{} .blog-content-sec ul li::marker{display:none} .related-blog{ border: 1px solid #848585; border-radius:0px 0px 5px 5px;  margin-bottom:30px }.blog-inner img { width: 100%; margin-top: 0px; padding-top: 0px!important; } .related-blog h3{padding-left:20px; padding-right:20px;}.related-blog h3 a{ font-weight: 600; font-size: 20px; color: #213b52; } .together-card{margin-right:20px} .col-together-card:last-child .together-card {margin-right: 25px;}
+.blog-content-sec a:hover{
+  color:#00a59c
+}
+@media (max-width: 767px) {
+ .row.content.rightblog { padding-left: 15px; padding-right: 15px;}  img.bulb { width: 100%!important; }
+}
+@media (max-width: 768px) {
+  .blog-content-sec .container.pb-1{padding-left:0px;  padding-right:0px}
+}
+@media (min-width: 768px) {
+  .blog-right article h2{padding-top:20px} img.bulb { margin: -0px 0px 0px 20px; width: 60%!important;} 
+  
+}
+
+
+/*content table */
+
+#content-table {
+    background: #00a59c;
+    color: white;
+    padding: 42px;
+    border-radius: 5px;
+}
+@media (max-width: 768px) {
+#content-table {
+    background: #00a59c;
+    color: white;
+    padding: 30px 20px;
+    border-radius: 5px;
+}
+}
+
+#content-table a{
+    color: #fff;
+    opacity: 1px;
+    opacity: 1;
+}
+#content-table a:hover{
+  opacity:0.7
+}
+#content-table p{
+  color:#fff;
+  font-size:14px
+}
+section#content-table-padding {
+    padding: 50px 0px 50px 0px;
+}
+#content-table ul li::before {
+  content: "\2022";
+  color: #fff;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  font-family: 'amazon-heavy';
+  margin-left: 0rem;
+}
+
+h3#promotestore  {
+    padding-top: 150px;
+    margin-top: -150px;
+}
+
+
+ /************ new blog css ***********/
+.hide {
+  display: none;
+}
+
+.show {
+  
+  display: table-row;
+} #blog-inn .show td{color:#fff} .fa-caret-right:before { padding:0px 4px; } button#btn-toggle { position: relative;} button#btn-toggle i { position: absolute;} .fa-caret-right:before { content: "\f0da";}
+
+.btn-toggle {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 20px;
+  outline: 0;
+}
+.btn-toggle[aria-expanded=true] i {
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+}
+span.bold {
+  font-family: 'amazon-bold';
+}
+#blog-inn td {
+  padding: 20px;
+  border: 1px solid #ddd !important;
+  text-align: left;
+}
+
+#collapseOne .accordion-collapse .show {
+  background-color:transparent !important;
+  display: table-row;
+}
+
+#accordionExampleblog .show{
+  background-color: #fff;
+  display: table-row;
+}
+.blog-2img {
+    width: 80%;
+    padding: 10px 0px;
+}
+strong.bold {
+    font-family: 'amazon-heavy';
+}
+
+.faq-accordian .accordion-header-blog .accordion-button {
+    font-size: 20px;
+    padding:10px;
+   font-family:amazon-medium;
+}
+.faq-accordian .accordion-header-blog{
+  border-bottom: 1px solid #d1d3d6;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.accordion-body-blog {
+    padding: 10px 10px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 12px;
+    height: 12px;
+    margin: 5px 7px;
+    background: #ffff;
+  }
+  .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #f26222;
+}
+@media only screen and (min-width: 1100px) {
+.together-card img {
+    height: 209px !important;
+}
+}
+
+p.bold {
+    font-family: 'amazon';
+}
+/*video play button*/
+
+.video-container {
+  position: relative;
+  display: flex;
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+}
+.play-button-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  pointer-events: none;
+}
+.play-button-wrapper #circle-play-b {
+  cursor: pointer;
+  pointer-events: auto;
+}
+.play-button-wrapper #circle-play-b svg {
+  width: 100px;
+  height: 100px;
+  fill: #fff;
+  stroke: #fff;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  opacity: 0.9;
+}
+.video-section {
+	padding-bottom:30px;
+}
+@media (min-width: 1100px){
+  .together-card-body {
+    flex: 1 1 auto;
+    padding: 34px;
+    min-height: 250px !important;
+}}

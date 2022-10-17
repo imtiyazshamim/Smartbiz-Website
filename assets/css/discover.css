@@ -1,0 +1,404 @@
+section.business-online {
+    background: #FFFFFE  url(../images/discover/water-marker.png) no-repeat;
+    color:#fff;
+    background-size: contain;
+    padding: 68px 0px;
+}
+h3.business-online-h {
+    font-size: 45px;
+    color: #213b52;
+}
+.your-business h3 {
+    font-size: 34px;
+    color: #213b52;
+    padding-right: 20px;
+    }
+
+h3.your-way-h {
+    font-size: 34px;
+}
+section.do-your-business {
+    padding: 50px 0px;
+}
+
+.first_row,.second_row{
+    border-bottom:1px solid #ccc;
+}
+.left_row{
+    border-right:1px solid #ccc;
+}
+.right_row{
+    border-left:1px solid #ccc;
+}
+.discover-icon{text-align:center}
+.discover-icon img{ padding-bottom:15px} 
+.discover-icon{ padding-left:0px;  padding-right:10px}
+.who-can-use{
+    padding: 15px;
+}
+.smartbiz-by-amazon {
+    background: #ffffff;
+    padding: 30px 0px;
+}
+
+
+
+/*--------------------------------------------------------------
+# Testimonials
+--------------------------------------------------------------*/
+.testimonials .testimonials-carousel,
+.testimonials .testimonials-slider {
+  overflow: hidden;
+}
+
+.testimonials .testimonial-item {
+  box-sizing: content-box;
+  text-align: left;
+  min-height: 350px;
+}
+
+.testimonials .testimonial-item .testimonial-img {
+  width: 90px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.testimonials .testimonial-item h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #213b52;
+}
+
+.testimonials .testimonial-item h4 {
+  font-size: 20px;
+  color: #213b52;
+   font-weight: bold;
+  margin: 0;
+  padding: 5px 0px;
+}
+.testimonials .testimonial-item p {
+  font-size: 14px;
+  color: #213b52;
+  margin: 0;
+}
+
+.testimonials .testimonial-item a{
+  font-size: 14px;
+ 
+}
+
+.testimonials .testimonial-item .quote-icon-left,
+.testimonials .testimonial-item .quote-icon-right {
+  color: #c9e3f5;
+  font-size: 14px;
+}
+
+.testimonials .testimonial-item .quote-icon-left {
+  display: inline-block;
+  left: -5px;
+  position: relative;
+}
+
+.testimonials .testimonial-item .quote-icon-right {
+  display: inline-block;
+  right: -5px;
+  position: relative;
+  top: 10px;
+}
+
+.testimonials .testimonial-item  {
+ margin: 0 15px 15px 15px;
+ padding: 30px;
+ background: #ffffff;
+ position: relative;
+ margin-bottom: 35px;
+ border-radius: 6px;
+}
+
+
+
+.testimonials .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.testimonials .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #c5c5c5;
+  opacity: 1;
+  /* border: 1px solid #9ba0a7; */
+}
+
+.testimonials .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #213b52;
+}
+a.business-know-more {
+    transition: all ease-in-out 0.3s;
+    border: 2px solid #f26222;
+    font-family: 'amazon-light';
+    font-size: 14px;
+    padding: 8px 20px;
+    background: #f26222;
+    color: #fff;
+    border-radius: 30px;
+}
+img.discover-icon-card {
+    width: 23%;
+    padding: 10px 0px;
+}
+
+/*--------------------------------------------------------------
+# discover-offer
+--------------------------------------------------------------*/
+section.section-bg.disoffer {
+    background: linear-gradient(0deg, rgb(255 255 255) 50%, rgb(35 48 63) 50%);
+}
+
+.discover-offer .card {
+  border: 0;
+  padding: 0 30px;
+  margin-bottom: 60px;
+  position: relative;
+  background: transparent;
+}
+
+.discover-offer { background: #23303f; color: #ffff; border-radius: 10px;}
+.img-discover { height: auto;}
+
+
+.discover-offer {background: #02a295 url('../images/discover/green-bg.png') no-repeat left top;color: #ffff;border-radius: 10px;
+    background-size:contain;
+}
+.discover-mobile.content p{
+    font-size: 40px;
+    color: #fff;
+    line-height: 46px;
+    font-family: 'amazon-bold';
+}
+.discover-mobile.content.content-right p{
+    font-size:36px;
+    line-height:40px;
+}
+.discover-c{
+    position:relative;
+}
+.discover-c img{
+    position:relative;
+    z-index:999;
+}
+.discover-c .discover_round:after{
+    content: '';
+    width: 225px;
+    height: 225px;
+    position: absolute;
+    top: -90%;
+    left: 75%;
+    background: #e75f25;
+    border-radius: 50%;
+    z-index: 9;
+}
+.discoverbanner#hero{
+    background: #02a295 url(../images/discover/discover-bg.jpg) no-repeat left top;
+}
+.discoverbanner#hero h2::after{
+    display: none;
+}
+.disoffer{
+    padding: 90px 0px;
+}
+.discover-offer.justify-content-around {
+    padding: 97px 60px;
+}
+@media (min-width: 768px){
+.discover-offer.justify-content-around {
+     padding: 100px 60px;
+}
+}
+@media (min-width: 768px)
+.discover-c {
+    margin-top: -150px;
+}
+@media (max-width: 1024px)  {
+    .discover-mobile.content p {
+        font-size: 23px;
+        color: #fff;
+        line-height: 35px;
+    }
+    img.discover-offer-img {
+        width: 185px!important;
+    }
+    .discover-mobile.content.content-right p {
+        font-size: 24px;
+        line-height: 34px;
+    }
+}
+@media (max-width: 800px)  {
+    .discover-c{ margin-bottom:40px}
+
+}
+ .discover img{width:100%; max-width: 100%;}
+ img.discover-offer-img {
+    margin: -145px 0px;
+    width: 200px;
+}
+
+/* Responsive fixes*/
+@media all and (max-width: 767px){
+    section.do-your-business{
+        padding: 10px 0;
+    }
+    .small-cta{
+        position: relative;
+        margin-bottom: 40px;
+    }
+  #discover-join {
+    margin-bottom: 40px;
+  }
+    .business-online .small-cta{
+        margin-bottom: 0;
+    }
+    section.business-online{
+        padding: 60px 10px;
+    }
+    .accelerate-app{
+        margin-bottom: 40px;
+    }
+    .discover-icon-text{
+        padding: 0 20px;
+    }
+    .left_row{
+        border-right: none;
+        /*margin-top: 0;*/
+    }
+    .first_row, .second_row{
+        /*margin: 0;*/
+    }
+    .who-can-use{
+        padding: 5px 0;
+    }
+    .third_row{
+        border-bottom: 1px solid #ccc;;
+    }
+    .third_row.center_row{
+        border-bottom: none;
+    }
+    .first_row.center_row,.second_row.center_row,.third_row.center_row,.first_row.left_row{
+        margin-top: 0;
+    }
+    .howdoes-sec{
+        padding: 0;
+    }
+    h3.business-online-h{
+        font-size: 28px;
+    }
+    /*section.business-online{*/
+    /*    padding: 20px 10px;*/
+    /*}*/
+    .footer-content.pb-5{
+        padding-bottom: 1rem!important;
+    }
+    footer .pt-5{
+            padding-top: 1rem!important;
+    }
+    h3.your-way-h{
+        font-size: 28px;
+    }
+    .smartbiz-by-amazon{
+        padding: 20px 0;
+    }
+}
+@media all and (max-width: 700px){
+    .menu-right-mob a{
+        font-size: 14px;
+    }
+    .discover-offer.justify-content-around {
+        padding: 60px 40px;
+        text-align: center;
+    }
+    .disoffer {
+        padding: 0px 0px;
+    }
+    .discover-mobile.content p {
+        font-size: 30px;
+        color: #fff;
+        line-height: 46px;
+    }
+    img.discover-offer-img {
+        margin:0px;
+        width: 152px;
+    }
+    .discover-c .discover_round:after {
+        width: 195px;
+        height: 195px;
+        top: 58px;
+        left: 70px;
+    }
+    .discover-mobile.content.content-right p {
+        font-size: 20px;
+        line-height: 36px;
+    }
+}
+h6.icon-title {
+    font-size: 18px;
+}
+.offer-btn {
+    transition: all ease-in-out 0.3s;
+    border: 2px solid #23303f;
+    font-family: 'amazon-light';
+    font-size: 16px;
+    color: white;
+    background: #23303f;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+a.btn.amazon-cta.small-cta:hover {
+    color: #f26222;
+}
+a.btn.amazon-cta.launch.small-cta:hover {
+    color: #f26222;
+}
+.business-know-more:hover {
+    background: transparent;
+    color: #f26222;
+}
+#your-business {
+    background: #f3f5f7;
+}
+
+#discover-icon-section {
+    background: #f3f5f7;
+}
+@media (max-width: 767px){
+section#discover-icon-section {
+    padding: 0px 0px 30px 0px;
+}
+}
+
+@media (max-width: 767px)
+.dbanner-copy {
+    padding-bottom: 30px!important;
+}
+@media only screen and (max-width: 900px) {
+    .desktop-show{
+        display:none;
+    }
+     
+}
+@media only screen and (min-width: 901px) {
+    img.mobile-show {
+    display: none;
+}
+     
+}
+@media (max-width: 767px)  {
+.offer-btn-center {
+    text-align: center;
+}
+}
+@media (max-width: 768px){
+.ctn-center {
+    text-align: center;
+}
+}

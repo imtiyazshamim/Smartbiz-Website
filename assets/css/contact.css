@@ -1,0 +1,200 @@
+
+
+
+
+
+.help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px;
+
+}
+
+.card{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.contactus .form-control {
+    margin-bottom: 20px;
+    font-size: 1.15rem;
+    appearance: auto;
+}
+.contactus .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: none;
+    /* border: 1px solid rgba(0,0,0,.125); */
+    /* border-radius: 0.25rem; */
+}
+
+.contactus h3{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.contactus h6{
+    letter-spacing: 0.5px;
+    font-size: 18px;
+}
+.trasfrom-your-dream{
+    background: #24303f url(../images/contact/contact-bottom-bg.png) no-repeat right top;
+    /* padding-top: 40px; */
+    padding: 70px 0px;
+    /* padding-bottom: 10%; */
+}
+.trasfrom-your-dream h3{
+    color: #fff;
+    font-size: 45px;
+    padding-right: 57px;
+}
+.trasfrom-your-dream h5{
+    color: #fff;
+    /* font-size: 25px; */
+    font-size: 24px;
+    padding-right: 87px;
+}
+.trasfrom-your-dream h5::after {
+    width: 275px;
+    height: 240px;
+    content: '';
+    left: 149px;
+    /* top: 0; */
+    position: absolute;
+    bottom: 0px;
+    background: url(../images/line-h.png) left center no-repeat;
+}
+
+.btn-send {
+    position: absolute;
+    /* top: 10px; */
+    /* right: 21px; */
+    left: 292px;
+    bottom: 8px;
+    align-items: center;
+    height: 49px;
+    width: 135px;
+    /* background: blue; */
+    color: #fff;
+    background: #f26222;
+    border-radius: 30px;
+    padding: 10px 15px;
+    font-weight: 700;
+    /* border: none; */
+    border: 2px solid #f26222;
+}
+.btn-center{
+    text-align: center;
+
+}
+@media screen and (max-width: 767px) {
+   
+    .trasfrom-your-dream h3 {
+      
+        font-size: 33px;
+        /*padding: 0px 10px;*/
+    }
+    .trasfrom-your-dream h5 {
+      
+        font-size: 20px;
+        /* padding: 0px 10px; */
+
+    }
+    .contactus h3{
+        font-size: 28px;
+        padding-right: 47px;
+    }
+    .card-body {
+        padding: 0px !important;
+    }
+    .trasfrom-your-dream h5::after{
+        display: none;
+    }
+}
+
+@media (min-width: 1200px){
+    .trasfrom-your-dream h5::after {
+        width: 284px;
+        height: 238px;
+        content: '';
+        left: 149px;
+        /* top: 0; */
+        position: absolute;
+        bottom: 0px;
+        background: url(../images/line-h.png) left center no-repeat;
+    }
+
+}
+@media only screen and (max-width: 1100px){
+    .trasfrom-your-dream h5::after{
+        display: none;
+    }
+    .trasfrom-your-dream h3 {
+       
+        font-size: 31px;
+        padding-right: 20px;
+    }
+    .trasfrom-your-dream h5 {
+       
+      
+        font-size: 19px;
+        padding-right: 0;
+    }
+}
+select#form_need {
+    color: #343638;
+}
+.contact-sec {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.contact-bottom{
+    padding-bottom: 100px;
+}
+.contact-sec{
+    padding: 0;
+}
+
+#form_need::after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+.a123:hover{
+    color: #f26222;
+}
+select #form_need :hover::before{
+    color: orange;
+}
+
+@media all and (max-width: 767px){
+ #contact-join {
+    margin-bottom: 40px;
+  }
+.m-center{
+    text-align:center;
+}
+}
+@media screen and (max-width: 768px) {
+   
+    #hero h2 br{display:none}
+    
+    br {
+    display: none;
+}
+}
+@media screen and (max-width: 992px) {
+.try-form iframe {
+    width: 105%;
+}
+}

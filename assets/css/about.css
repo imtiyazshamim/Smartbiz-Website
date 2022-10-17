@@ -1,0 +1,454 @@
+#last-sec {
+    background-image: url(../images/about-us/bottom-bg.png);
+    background-size: cover;
+    background-position: center;
+    padding: 101px
+}
+
+
+#last-sec p{
+    color: #fff;
+    
+}
+.our-vision{
+    background: linear-gradient(180deg, #ffffff 0%, #fff 100%);
+}
+.our-vision p{
+    font-size: 20px;
+    color: #fff;
+
+}
+.intro-mobile.content {
+    font-weight: bold;
+    font-size: 28px;
+}
+.intro-offer h3 {
+    font-size: 30px;
+}
+@media (min-width: 768px){
+section.transform-business {
+    padding: 80px 0px 0px 0px;
+}
+}
+@media (max-width: 768px){
+    img.img-fluid.img-profile {
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+}
+.solution{
+    background-color: #24303f;
+    padding-bottom: 250px;
+
+}
+#solution .card{
+    background-color: #24303f;
+    padding: 60px;
+    border: none;
+}
+.solution p{
+    color: #fff;
+    padding: 15px 0px;
+}
+.our-vision-content{
+    background-image: url(../images/about-us/section-bg.png);
+    color: #fff;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+@media(min-width:768px){
+    .our-vision-content{
+        /*padding: 132px 52px 109px 52px;*/
+    }
+
+}
+@media(max-width:768px){
+    .our-vision-content{
+        /*padding: 111px 52px 90px 52px;*/
+    }
+
+}
+.our-solution-heading{
+font-size: 43px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: #fff;
+    
+    text-align: center;
+}
+.card-border{
+border: 1px solid #C0C0C0;
+}
+
+@media(max-width:768px)
+{
+    #last-sec{
+    padding: 0;
+    }
+    .inspiring-career-heading{
+        padding-right: 0;
+    }
+    #last-sec p{
+        padding-right: 0;
+    }
+    #solution .card{
+        padding: 0;
+    }
+    #last-sec {
+        padding: 80px 0px;
+    }
+    .together-button-ly .btn-bottom{
+        margin-bottom: 0;
+    }
+}
+
+section.smart-commerce{
+    padding: 90px 0px;
+
+}
+.transforming-business-h{
+    font-size: 34px;
+}
+a.amazon-cta-social-btn {
+    font-size: 30px;
+    color: #303c4a;
+    padding: 15px;
+}
+a.amazon-cta-social-btn:hover {
+    color: orangered;
+}
+.smart-commerce-bold{
+    font-family: 'amazon-bold';
+    font-size: 18px;
+}
+#solution .card-body{
+    flex: 1 1 auto;
+    padding: 2rem 0rem;
+}
+
+#our-success-story .contain {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  #our-success-story .item {
+    align-items: center;
+    /* background-color: tomato; */
+    color: white;
+    display: flex;
+    /* height: 300px; */
+    justify-content: left;
+  }
+  #our-success-story .row{
+      display: flex;
+  }
+  #our-success-story .contain{
+    background: url(../images/about-us/testimonail-bg.png);
+    
+    padding: 101px}
+
+.inspiring-career-heading {
+    font-size: 43px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: #fff;
+    padding-right: 100px;
+}
+#last-sec p{
+    color: #fff;
+    padding-right: 100px;
+}
+.our-vision{
+    background: linear-gradient(180deg, #ffffff 0%, #fff 100%);
+}
+.our-vision p{
+    font-size: 18px;
+    color: #fff;
+}
+.intro-mobile.content {
+    font-weight: bold;
+    font-size: 28px;
+}
+.intro-offer h3 {
+    font-size: 30px;
+}
+/* @media (min-width: 768px){
+    #last-sec {
+        padding: 0;
+    }
+
+} */
+.solution{
+    background-color: #24303f;
+    padding-bottom: 250px;
+
+}
+#solution .card{
+    background-color: #24303f;
+    padding: 20px 60px;
+    border: none;
+}
+.solution p{
+    color: #fff;
+    padding: 15px 0px;
+}
+
+.our-vision-content{
+    background-image: url(../images/about-us/section-bg.png);
+    color: #fff;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media(max-width:800px){
+.our-vision-content{
+    background-image: url(../images/about-us/section-bg.png);
+    color: #fff;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left; 
+
+}
+}
+@media(min-width:768px){
+    .our-vision-content{
+    /*padding: 138px 350px 138px 52px;*/
+    }
+
+}
+@media(min-width:1280px){
+    .our-vision-content{
+    /*padding: 138px 52px;*/
+    }
+
+}
+.our-solution-heading{
+    font-size: 43px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+@media (max-width: 768px){
+.our-solution-heading{
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 35px;
+    color: #fff;
+    text-align: center;
+}
+}
+.card-border{
+    border: 1px solid #C0C0C0;
+}
+
+@media(max-width:768px)
+{
+    #last-sec{
+    padding: 0;
+    }
+    .inspiring-career-heading{
+    padding-right: 0;
+    }
+    #last-sec p{
+    padding-right: 0;
+    }
+    #solution .card{
+    padding: 0;
+    }
+    #last-sec {
+    padding: 80px 0px;
+    }
+    .together-button-ly .btn-bottom{
+    margin-bottom: 0;
+    }
+    .Designation {
+    padding-top: 30px;
+    text-align: center;
+}
+
+}
+
+section.smart-commerce{
+    padding: 50px 0px 90px 0px;
+}
+.transforming-business-h{
+    font-size: 34px;
+}
+a.amazon-cta-social-btn {
+    font-size: 30px;
+    color: #303c4a;
+    padding: 15px;
+}
+a.amazon-cta-social-btn:
+    hover {
+    color: orangered;
+}
+.smart-commerce-bold{
+    font-family: 'amazon-bold';
+    font-size: 18px;
+}
+#solution .card-body{
+    flex: 1 1 auto;
+    padding: 2rem 0rem;
+}
+
+#our-success-story .contain {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  #our-success-story .item {
+    align-items: center;
+    /* background-color: tomato; */
+    color: white;
+    display: flex;
+    /* height: 300px; */
+    justify-content: left;
+  }
+  #our-success-story .row{
+    display: flex;
+  }
+  #our-success-story .contain{
+    background: url(../images/about-us/testimonail-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 45px;
+    border-radius: 10px;
+  }
+
+@media (max-width: 768px){
+#our-success-story .contain{
+    background: url(../images/about-us/testimonail-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 45px 45px;
+    border-radius: 10px;
+  }
+}
+
+  .profile-pic{
+    width: 25%;
+    padding: 15px;
+  }
+ @media (max-width: 768px){
+   .profile-pic{
+    width: 100%;
+    padding: 15px;
+  }
+ }
+  #our-success-story p{
+    font-size: 20px;
+  }
+  .para-sec{
+    padding: 30px;
+  }
+  .contain h3{
+    color: #fff;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 20px;
+  }
+  @media (max-width: 768px){
+  #our-success-story{
+    margin-top: -260px;
+    text-align: center;
+  }
+}
+  #our-success-story .owl-carousel{
+    display: block;
+    width: 100%;
+    z-index: 1;
+  }
+  #blog-sec{
+    padding: 100px 0px;
+  }
+    background-size: cover;
+    padding: 20px 45px;
+    border-radius: 10px;
+  }
+
+  .profile-pic{
+    padding: 15px;
+    width: 30%;
+  }
+
+  #our-success-story p{
+    font-size: 18px;
+    color: #fff;
+  }
+   .para-sec{
+    padding: 30px;
+  }
+@media (max-width: 768px){
+  .para-sec{
+    padding: 0px;
+    
+  }
+}
+  .contain h3{
+    color: #fff;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 20px;
+  }
+@media (max-width: 768px){
+ .contain h3{
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 30px;
+  }
+}
+  #our-success-story{
+    margin-top: -260px;
+  
+  }
+  #our-success-story .owl-carousel{
+
+  display: block;
+    width: 100%;
+    z-index: 1;
+  }
+  #blog-sec{
+  padding: 40px 0px;
+  }
+
+  .Designation {
+    padding-top: 30px;
+   
+}
+.owl-nav {
+    display: none;
+}
+.our-vision .vision-para{
+    padding: 76px;
+}
+.our-vision .vision-para h3{
+    font-size: 38px;
+}
+
+.o-video {
+  width: 100%;
+  height: 0;
+  position: relative;
+  padding-top: 56.25%; /* 9 / 16 * 100 */
+}
+.o-video > iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 0;
+}

@@ -1,0 +1,73 @@
+body{
+  width: 800px;
+}
+#sync1 .item {
+  margin: 5px;
+  color: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+#sync2 .item {
+  background: #c9c9c9;
+  /* padding: 10px 0px; */
+  margin: 5px;
+  color: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#sync2 .item h1 {
+  font-size: 18px;
+}
+
+#sync2 .current .item {
+  background: #0c83e7;
+}
+
+.owl-theme .owl-nav [class*="owl-"] {
+  transition: all 0.3s ease;
+}
+
+.owl-theme .owl-nav [class*="owl-"].disabled:hover {
+  background-color: #d6d6d6;
+}
+
+#sync1.owl-theme {
+  position: relative;
+}
+
+#sync1.owl-theme .owl-next,
+#sync1.owl-theme .owl-prev {
+  width: 22px;
+  height: 40px;
+  margin-top: -20px;
+  position: absolute;
+  top: 50%;
+}
+
+#sync1.owl-theme .owl-prev {
+  left: 10px;
+}
+
+#sync1.owl-theme .owl-next {
+  right: 10px;
+}
+/* animate fadin duration 1.5s */
+.owl-carousel .animated {
+  animation-duration: 1.5s !important;
+}
+/* 輪播的前後按鈕背景調大 */
+#sync1.owl-theme .owl-next,
+#sync1.owl-theme .owl-prev {
+  width: 35px !important;
+  height: 55px !important;
+}
+#sync1 svg {
+  width: 22px !important;
+} #sync1 .fade:not(.show){opacity:1} h2{color:red}
